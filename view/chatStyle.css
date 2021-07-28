@@ -1,0 +1,133 @@
+.Messages
+{  position:relative;
+
+    width:100%;
+    max-height: 800px;
+    background-color:white;
+    text-align:left;
+
+
+}
+.MessageList
+{   padding-left:25px;
+    padding-right:5px;
+    width:15%;
+    float:left;
+    display:inline-block;
+    padding-bottom:10px;
+
+
+}
+#Chat
+{
+    background: #f5f5f5;
+
+}
+.MessagesText
+{
+    position: relative;
+    height: 90%;
+    overflow-y: auto;
+    transform: rotate(180deg);
+}
+.Input
+{
+    position:relative;
+
+    width:100%;
+    background: #eeeeee;
+    border-right:1px solid grey;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    height:150px;
+    border-radius: 15px;
+}
+.InputText
+{   left:5px;
+    position:relative;
+    width:95%;
+    border-radius: 15px;
+}
+
+.InputButton
+{
+    position:relative;
+    left:65%;
+    width: 90px;
+    height:40px;
+    border-radius: 15px;
+}
+.MessageOthers
+{   position:relative;
+    background: #1d1d1e;
+    border-radius: 25px;
+    float:left;
+
+}
+.MessageYou
+{   position:relative;
+    background: #0084ff;
+    border-radius: 25px;
+    float:right;
+
+}
+.Paragraph
+{
+    color:white;
+    font-size:20px;
+    padding-right:8px;
+    padding-left:8px;
+}
+.ContainerDiv
+{
+    width:100%;
+    float:left;
+    position:relative;
+    padding-bottom:1.5px
+}
+.MessagesAndInput
+{
+    position:relative;
+    display:inline-block;
+    float:left;
+    width:55%;
+
+}
+img
+{
+    max-height: 200px;
+}
+
+.ContactButton
+{   position: relative;
+
+    background-color: #1d1d1e;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity:1;
+}
+
+
+
+.AddContact {
+    padding: 5px 5px;
+    border-radius: 5px;
+    background-color: darkred;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    opacity: 1;
+
+
+    cursor: pointer;
+    margin: 5px;
+}

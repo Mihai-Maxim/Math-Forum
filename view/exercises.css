@@ -1,0 +1,170 @@
+body
+{
+    background-color: #f5f5f5;
+}
+
+img {
+
+    max-width: 80px;
+    max-height: 43px;
+    border: 0px;
+    float:left;
+
+}
+
+#Div
+{   padding-left:20px;
+    position: absolute;
+    width:95%;
+
+
+}
+.ExerciseFrame
+{
+
+    position:relative;
+
+    width:170%;
+    display: none;
+}
+.frame
+{
+
+    height:50px;
+    position: absolute;
+    left: 25%;
+    border:none;
+}
+.ExerciseFrame
+{
+    border:none;
+
+}
+table{
+
+    border-collapse: collapse;
+
+
+}
+.wrapper {
+    position: absolute;
+    padding-left:25px;
+
+
+}
+
+td{
+    border: solid #ddd;
+    padding: 8px;
+}
+
+th {
+    border: 1px solid black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #5380d3;
+    color: white;
+}
+.ExerciseContent
+{
+
+
+}
+.ExerciseTitle
+{
+    position:relative;
+
+
+}
+.ExerciseTitleTextarea
+{   background-color: #f5f5f5;
+    resize:none;
+    border:0px;
+    overflow-y:hidden;
+
+
+}
+.ExerciseContentTextarea
+{
+    overflow-y:hidden;
+    background-color: #f5f5f5;
+    border: 0px;
+    resize:none;
+    height:30px;
+
+}
+input:focus {
+    outline:none;
+}
+.ImageExercise
+{  position:relative;
+    float:right;
+}
+.Middle
+{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.TitleExercise
+{
+    position:relative;
+    display:inline;
+
+
+
+}
+.ContentExercise
+{
+    width:300px;
+
+    display:inline;
+}
+.ReplyContent
+{
+    float : left;
+    clear : none;
+
+    width : 400px;
+}
+
+.ReplyInfo
+{
+    float : left;
+    clear : none;
+    resize: resize;
+    width : 100px;
+}
+.ReplyImage
+{
+
+
+    float : left;
+    clear : none;
+}
+.StartNewExerciseFrame
+{   top:30px;
+    position:relative;
+    width: 420px;
+    height:350px;
+    border:none;
+
+}
+.Reply
+{
+    display : block;
+    overflow : auto;
+
+}
+.Exercise{
+    width:500px;
+}
+.CSV
+{
+    display:inline-block;
+    position:relative;
+    height:300px;
+    width:275px;
+    border:0px solid black;
+}

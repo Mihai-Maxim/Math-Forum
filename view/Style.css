@@ -1,0 +1,389 @@
+ul#Subjects li{
+    display:inline;
+    margin-right:40px;
+    font-size:20px;
+    position:sticky;
+}
+ul#Subjects
+{
+    margin:0px;
+    padding:15px;
+}
+ul#Subjects li:nth-of-type(6) {
+    margin-left: 0px;
+    font-size: 25px;
+}
+ul#Subjects li:nth-of-type(1) {
+    margin-right: 80px;
+    font-size: 30px;
+}
+ul#Subjects li:nth-of-type(7) {
+    font-size: 25px;
+    margin-left:-40px;
+}
+ul#Subjects li:nth-of-type(8) {
+    font-size: 25px;
+    margin-left:-40px;
+}
+ul#Subjects li:nth-of-type(9) {
+    font-size: 25px;
+    margin-left:300px;
+}
+
+
+
+
+ul#NavList  {
+    padding:26px;
+}
+ul#NavList li {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: black;
+    font-family :'Comic Sans MS';
+    opacity:65%;
+}
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+#Searchbar {
+
+    display: inline-block;
+    height: 30px;
+
+}
+#Searchform
+{
+    height: 50px;
+}
+
+#SearchInput{
+    padding:10px 25px;
+    width:300px;
+    position: absolute;
+    top:-10px;
+    float:right;
+}
+#SearchButton {
+    padding: 10px 10px;
+    float: left;
+    border-radius: 5px;
+    background-color: darkred;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    opacity: 1;
+    width: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+#SearchButton:hover{
+    opacity: 0.7;
+}
+#ThreadPress
+{
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+.RegularButton  {
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    opacity:1;
+}
+.RegularButton:hover {
+    opacity:.7;
+}
+div.content{
+    width:100%;
+    min-height:600px;
+    height:auto;
+}
+.blue {
+    background-color: #5380d3;
+}
+.green {
+    background-color:green;
+    padding:10px 25px;
+    font-size:15px;
+}
+.gray{
+    background-color: #202020;
+    padding: 10px 25px;
+    display:inline-table;
+}
+.darkRed{
+    background-color: darkred;
+
+}
+html,body { height:100%; }
+div.leftSide {
+    width: 10%;
+
+    float: left;
+    background: #f5f5f5;
+    display: block;
+}
+div.rightSide {
+    width: 90%;
+    height: 100%;
+    /* min-height: 600px;*/
+    float: left;
+    background: white;
+    display: block;
+}
+div.bottomSide
+{
+    width: 100%;
+    min-height: 200px;
+
+    background: black;
+    display: block;
+}
+#User{
+    display: none;
+    padding-left: 10px;
+    height: auto;
+    font-family :'Comic Sans MS';
+    color:black;
+    opacity:65%;
+
+}
+div.Container
+{
+    width:65%;
+    max-height: 500px;
+    height:450px;
+    padding-right:125px;
+    padding-left:10px;
+    margin:0px 0px 0px 30px;
+    display: none;
+    margin-top: 30px;
+    background: #eee;
+    border-radius: 15px;
+    padding-top: 30px;
+}
+div.Container2
+{
+    width:70%;
+    min-height: 500px;
+    margin: 0px auto;
+    display: block;
+    margin-top: 30px;
+    background: #eee;
+    border-radius: 15px;
+    padding-top: 30px;
+}
+footer{
+    left: 0;
+    height: 35px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    color: black;
+    text-align: center;
+}
+header {
+    background: #f5f5f5;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.PostButton
+{   position: relative;
+    padding: 20px 20px;
+    left:250px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    opacity:1;
+}
+.PostButton:hover
+{
+    opacity: .7;
+}
+.Categorii
+{
+
+    background-color: white;
+    width: 300px;
+
+}
+#HomeFrame
+{
+    width: 80%;
+    border: 0px solid black;
+    display: none;
+    height: 1024px;
+}
+#Frame
+{
+    width:80%;
+    border: 0px solid black;
+
+}
+#Frame2
+{
+    width:80%;
+    border: 0px solid black;
+    display: none;
+}
+
+
+.Container form{
+    width: 400px;
+    max-height: 500px;
+    min-height: 100px;
+    margin: 0px auto;
+}
+
+.formLine{
+
+    min-height: 30px;
+    max-height: 500px;
+
+    display: flex;
+    margin:0px auto;
+}
+
+.formLine2{
+    right: 200px;
+    width: 100%;
+    min-height: 30px;
+    max-height: 500px;
+    clear: both;
+    display: flex;
+}
+
+
+.formLine .left{
+    float: left;
+    width: 45%;
+    text-align: right;
+    margin-right: 30px;
+    line-height: 50px;
+}
+.formLine .right{
+    float: left;
+    width: 300px;
+}
+.formLine .resize
+{
+    resize: vertical;
+}
+.formLine .checkbox
+{
+    float:left;
+    margin-top: 20px;
+    width: 20px;
+    padding: 5px;
+}
+
+.formLine .checkboxLabel{
+    margin-left: -30px;
+    padding: 0px 20px;
+}
+.formLine .adjustText{
+    padding: 15px 0px;
+}
+input[type=Username], input[type=Password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.loginStyle{
+    display: flex inline;
+    width: 300px;
+    margin-left: 350px;
+}
+.registerStyle{
+    width: 450px;
+    margin:0px auto;
+
+}
+.chatStyle{
+
+    margin-top: 400px;
+}
+.chatContainer
+{  position: center;
+    width:99%;
+    min-height: 500px;
+    padding-left: 9px;
+}
+.Shortcut
+{
+
+}
+.Messages
+{
+    width:40%;
+    height:90%;
+    background-color:gray;
+
+    text-align:center;
+}
+#DiscussionsAbout {
+    text-align: center;
+    font-family :Comic Sans MS;opacity:65%; color:black;
+    font-size: large;
+ }
+#ExercisesAbout
+{
+    text-align: center;
+    font-family :Comic Sans MS;opacity:65%; color:black;
+    font-size: large;
+}
+#ChatAbout
+{
+    text-align: center;
+    font-family :Comic Sans MS;opacity:65%; color:black;
+    font-size: large;
+}
+#LogAbout
+{
+    text-align: center;
+    font-family :Comic Sans MS;opacity:65%; color:black;
+    font-size: large;
+}
+.About
+{
+    display: none;
+}
+
+
+
+
+
